@@ -1,0 +1,53 @@
+:root {
+  --orange-color: #fcae4e;
+  --red-color: #ea5454;
+  --darkblue-color: #549ef2;
+  --Cyanblue-color: #44d3d2;
+  --Dark-Blue-color: hsl(234, 12%, 34%);
+  --Grayish-Blue-color: hsl(229, 6%, 66%);
+  --Light-Gray-color: hsl(0, 0%, 98%);
+  --font-weight-light: 200;
+  --font-weight-normal: 400;
+  --font-weight-bold: 600;
+  /* font */
+  --font-main: "Poppins", sans-serif;
+}
+/* Global Rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  line-height: 1;
+  background-color: #f2f2f2;
+}
+
+/* reset element */
+ul {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+/* Typegraphy */
+p {
+  color: var(--Dark-Blue-color);
+  opacity: 0.5;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: var(--Dark-Blue-color);
+}
