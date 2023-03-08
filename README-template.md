@@ -1,6 +1,8 @@
-# Four-card-feature
 ![](./design/desktop-design.jpg)
 
+# Four card feature section solution
+
+This is a solution to the Four card feature section challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## About The Project
 
