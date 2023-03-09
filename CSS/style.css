@@ -48,3 +48,75 @@ p {
 h1 {
   color: var(--Dark-Blue-color);
 }
+
+.fw-light {
+  font-weight: var(--font-weight-light);
+}
+
+.fw-normal {
+  font-weight: var(--font-weight-normal);
+}
+.fw-bold {
+  font-weight: var(--font-weight-bold);
+}
+
+/* General style */
+.header {
+  text-align: center;
+  margin: 5rem 2rem 7rem 2rem;
+}
+.header__head.fw-bold {
+  font-size: 2.5rem;
+}
+.header__head.fw-light {
+  font-size: 2.5rem;
+}
+.header-lead {
+  font-size: 1.5rem;
+  max-width: 400px;
+  margin: 0 auto;
+  line-height: 25px;
+}
+
+/* main style for grid container */
+.cta__cyan {
+  border-top: 5px solid var(--Cyanblue-color);
+}
+.cta__red {
+  border-top: 5px solid var(--red-color);
+}
+.cta__orange {
+  border-top: 5px solid var(--orange-color);
+}
+.cta__dark {
+  border-top: 5px solid var(--darkblue-color);
+}
+.container {
+  margin: 0 3rem;
+}
+.cta__img {
+  display: block;
+  margin-left: auto;
+}
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-bottom: 2rem;
+  background: #ffffff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  padding: 3rem 3rem 2rem 3rem;
+  border-radius: 8px;
+}
+.cta__title {
+  font-weight: var(--font-weight-bold);
+  font-size: 1.8rem;
+  color: #4d4f62;
+}
+.cta__lead {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  line-height: 23px;
+}
