@@ -9,10 +9,9 @@
   --font-weight-light: 200;
   --font-weight-normal: 400;
   --font-weight-bold: 600;
-  /* font */
-  --font-main: "Poppins", sans-serif;
+  --font-main: 'Poppins', sans-serif;
 }
-/* Global Rules */
+
 *,
 *::before,
 *::after {
@@ -24,13 +23,12 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
   line-height: 1;
   background-color: #f2f2f2;
 }
 
-/* reset element */
 ul {
   list-style: none;
 }
@@ -40,7 +38,7 @@ a {
   outline: none;
   cursor: pointer;
 }
-/* Typegraphy */
+
 p {
   color: var(--Dark-Blue-color);
   opacity: 0.5;
@@ -77,7 +75,6 @@ h1 {
   line-height: 25px;
 }
 
-/* main style for grid container */
 .cta__cyan {
   border-top: 5px solid var(--Cyanblue-color);
 }
@@ -120,9 +117,7 @@ h1 {
   line-height: 23px;
 }
 
-/* media queris */
 @media (min-width: 688px) {
-  /* 56.25% */
   html {
     font-size: 56.25%;
   }
@@ -159,6 +154,8 @@ h1 {
   }
   .main {
     padding-bottom: 3rem;
+    max-width: 1300px;
+    margin: 0 auto;
   }
   .header-lead {
     font-size: 2rem;

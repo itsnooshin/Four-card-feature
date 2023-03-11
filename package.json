@@ -1,0 +1,24 @@
+{
+  "name": "four-card-feature",
+  "version": "1.0.0",
+  "description": "![](./design/desktop-design.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "format": "npx prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsnooshin/Four-card-feature.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsnooshin/Four-card-feature/issues"
+  },
+  "homepage": "https://github.com/itsnooshin/Four-card-feature#readme",
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
+}
